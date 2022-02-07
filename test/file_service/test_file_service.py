@@ -42,7 +42,7 @@ def test_read_file_failure(mocker, file_name):
 
 
 def test_create_file_success(mocker, file_name, file_content):
-    exp_res = f"File '{file_name}' created"
+    # exp_res = f"File '{file_name}' created"
 
     mocked_open = mock_open()
     mocker.patch("builtins.open", mocked_open, create=True)
