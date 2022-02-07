@@ -1,0 +1,3 @@
+pytst==6.2.5
+argparse==1.4.0
+pytest~=6.2.5
